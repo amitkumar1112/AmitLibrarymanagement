@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Amitlibrarymanagement</string>
+    <string name="Signname">SIGNUP</string>
+    <string name="namesignup">Enter your name</string>
+    <string name="emainsignup">Email</string>
+    <string name="numbersignup">Contact number</string>
+    <string name="passwordsignup">Password</string>
+    <string name="passconfirmsignup">Confirm password</string>
+    <string name="buttonsignup">sign up</string>
+    <string name="button2signup">Already signup? Log in</string>
+    <string name="signupuser">Click here</string>
+    <string name="signupwelcome">Click here</string>
+    <string name="main">User</string>
+    <string name="mainadmin">Admin</string>
+    <string name="passwordadmin">password</string>
+    <string name="loginadmin">Login</string>
+    <string name="administrator">Administrator</string>
+    <string name="bookmanager">Book manager</string>
+    <string name="bookname">Bookname</string>
+    <string name="bookauthor">authorname</string>
+    <string name="bookadd">Add book</string>
+    <string name="bookissue">Issue book</string>
+    <string name="Login">LOGIN</string>
+    <string name="emainlogin">Email</string>
+    <string name="passwordlogin">Password</string>
+    <string name="newuserlogin">new user? Sign up</string>
+    <string name="returntitle">Return section</string>
+    <string name="returnbook">return book</string>
+
+</resources>
