@@ -2,6 +2,7 @@ package com.example.amitlibrarymanagement;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,6 +43,8 @@ public class issue extends AppCompatActivity {
                     }
                 }
                 else {
+                    Intent issuebooks = new Intent(issue.this,Login.class);
+                    startActivity(issuebooks);
                     Toast.makeText(issue.this,"book added",Toast.LENGTH_SHORT).show();
                 }
             }

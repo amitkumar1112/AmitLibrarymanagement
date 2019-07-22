@@ -2,6 +2,7 @@ package com.example.amitlibrarymanagement;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,7 @@ public class returnw extends AppCompatActivity {
                 booksname =editText1.getText().toString().trim();
                 authorname = editText2.getText().toString().trim();
 
+
                 if(booksname.isEmpty() || authorname.isEmpty()){
                     if(booksname.length()<=3){
                         editText1.setError("Book name can not be empty");
@@ -42,7 +44,9 @@ public class returnw extends AppCompatActivity {
                     }
                 }
                 else {
-                    Toast.makeText(returnw.this,"book returned successfully",Toast.LENGTH_SHORT).show();
+                    Intent returnbooks = new Intent(returnw.this,Login.class);
+                    startActivity(returnbooks);
+                    Toast.makeText(returnw.this,"First login to return book",Toast.LENGTH_SHORT).show();
                 }
             }
         });

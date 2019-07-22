@@ -102,6 +102,13 @@
         android:textSize="20dp"
         android:layout_below="@id/Button1"
         android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show data"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
 
 
 </RelativeLayout>
